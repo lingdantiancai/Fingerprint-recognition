@@ -79,7 +79,7 @@ while(Serial.available()>0)
 delay(1000);
 digitalWrite(12,LOW);
 delay(1000);
-    Serial.println("Ready to enroll a fingerprint! Please Type in the ID # you want to save this finger as...");
+    Serial.println("Ready to enroll a fingerprint! Please Type in the ID # IIDD you want to save this finger as...");
   id = readnumber();
   Serial.print("Enrolling ID #");
   Serial.println(id);
